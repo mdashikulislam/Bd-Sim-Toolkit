@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="nav_header">#E50000</color>
+    <color name="gp">#0091d2</color>
+    <color name="bl">#f26f23</color>
+    <color name="rb">#f00000</color>
+    <color name="tt">#1bb118</color>
+    <color name="at">#ED1B24</color>
+    <color name="st">#fff300</color>
+
+    <color name="white">#ffffff</color>
+</resources>
