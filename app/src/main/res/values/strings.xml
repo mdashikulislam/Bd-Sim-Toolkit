@@ -19,4 +19,16 @@
     <string name="rate">Rate Me</string>
     <string name="about">About</string>
     <string name="title_activity_grameenphone">Grameenphone</string>
+    <string name="title_activity_banglalink">Banglalink</string>
+    <string name="title_activity_robi">Robi</string>
+    <string name="title_activity_airtel">Airtel</string>
+    <string name="title_activity_teletalk">Teletalk</string>
+    <string name="title_activity_skitto">Skitto</string>
+    <string name="main_title">Manage Your Sim</string>
+    <string name="latest_offers">Latest Offers</string>
+    <string name="flexiplan">Flexiplan</string>
+    <string name="internet">Internet Packs</string>
+    <string name="ppackage">Prepaid Package</string>
+    <string name="fnf">FNF Menu</string>
+    <string name="ussd">USSD Codes</string>
 </resources>

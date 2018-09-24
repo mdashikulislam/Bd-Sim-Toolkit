@@ -19,6 +19,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Grameenphone"
+            android:label="@string/title_activity_grameenphone"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Banglalink"
+            android:label="@string/title_activity_banglalink"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Robi"
+            android:label="@string/title_activity_robi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Airtel"
+            android:label="@string/title_activity_airtel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teletalk"
+            android:label="@string/title_activity_teletalk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Skitto"
+            android:label="@string/title_activity_skitto"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>
