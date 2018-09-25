@@ -31,4 +31,6 @@
     <string name="ppackage">Prepaid Package</string>
     <string name="fnf">FNF Menu</string>
     <string name="ussd">USSD Codes</string>
+    <string name="gpRecylerText">1GB 29 Tk Only</string>
+    <string name="time">5 days ago</string>
 </resources>

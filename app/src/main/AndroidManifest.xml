@@ -42,9 +42,8 @@
         <activity
             android:name=".Skitto"
             android:label="@string/title_activity_skitto"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".GpLatestOffer"></activity>
     </application>
 
 </manifest>
