@@ -18,7 +18,7 @@ import android.widget.Button;
 
 public class Grameenphone extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,View.OnClickListener {
-    private Button _letestOffer;
+    private Button _letestOffer,_flexiPlan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,10 +51,11 @@ public class Grameenphone extends AppCompatActivity
 
 
         _letestOffer = findViewById(R.id.letestOffer);
-
+        _flexiPlan = findViewById(R.id.flexiplan);
 
 
         _letestOffer.setOnClickListener(this);
+        _flexiPlan.setOnClickListener(this);
 
 
     }
@@ -129,6 +130,7 @@ public class Grameenphone extends AppCompatActivity
         Intent i;
         switch (v.getId()){
             case R.id.letestOffer:i = new Intent(this,GpLatestOffer.class);startActivity(i);break;
+            case R.id.flexiplan:i = new Intent(this,Flexiplan.class);startActivity(i);break;
         }
     }
 }

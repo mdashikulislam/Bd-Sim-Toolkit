@@ -4,10 +4,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <android.support.v7.widget.CardView
-        android:id="@+id/gp_card_view"
+        android:id="@+id/st_card_view"
         android:layout_width="match_parent"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:focusable="true"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content">
         <RelativeLayout
@@ -18,7 +20,7 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/gp"/>
+                android:src="@drawable/skitto"/>
             <TextView
                 android:id="@+id/textview1"
                 android:layout_width="match_parent"

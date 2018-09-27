@@ -13,10 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class Robi extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
-
+        implements NavigationView.OnNavigationItemSelectedListener,View.OnClickListener {
+    private Button _latestOffer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +42,12 @@ public class Robi extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        _latestOffer = findViewById(R.id.letestOffer);
+
+
+
+        _latestOffer.setOnClickListener(this);
     }
 
     @Override
@@ -106,5 +113,13 @@ public class Robi extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent i;
+        switch (v.getId()){
+           case R.id.letestOffer:i = new Intent(this,RbLatestOffer.class);startActivity(i);break;
+        }
     }
 }
