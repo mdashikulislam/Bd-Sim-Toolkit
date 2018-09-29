@@ -33,4 +33,13 @@
     <string name="ussd">USSD Codes</string>
     <string name="gpRecylerText">1GB 29 Tk Only</string>
     <string name="time">5 days ago</string>
+    <string name="title_activity_gp_internet_pack">GpInternetPack</string>
+    <string name="addfnf">Add FnF</string>
+    <string name="checkfnf">Check FnF</string>
+    <string name="changeFnf">Change FnF</string>
+    <string name="deleteFnf">Delete FnF</string>
+    <string name="speciapFnf">Add Special FnF</string>
+    <string name="changespeciapFnf">Change Special FnF</string>
+    <string name="checkspeciapFnf">Check Special FnF</string>
+    <string name="deletespeciapFnf">Delete Special FnF</string>
 </resources>

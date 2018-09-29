@@ -17,7 +17,7 @@ import android.widget.Button;
 
 public class Banglalink extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,View.OnClickListener {
-    private Button _latestOffer;
+    private Button _latestOffer,_fnf;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,9 +45,10 @@ public class Banglalink extends AppCompatActivity
 
 
         _latestOffer = findViewById(R.id.letestOffer);
-
+        _fnf = findViewById(R.id.fnf);
 
         _latestOffer.setOnClickListener(this);
+        _fnf.setOnClickListener(this);
     }
 
     @Override
@@ -120,6 +121,7 @@ public class Banglalink extends AppCompatActivity
         Intent i;
         switch (v.getId()){
             case R.id.letestOffer:i = new Intent(this,BlLatestOffer.class);startActivity(i);break;
+            case R.id.fnf:i = new Intent(this,BlFnfMenu.class);startActivity(i);break;
         }
     }
 }
