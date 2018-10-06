@@ -49,12 +49,32 @@ public class BlFnfMenu extends AppCompatActivity  implements View.OnClickListene
         Intent i;
         switch (v.getId()){
             case R.id.addFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*2*4#"));
-               /* if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED){
-
-                }*/
+                startActivity(i);
+                Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
+            case R.id.checkFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*1*1#"));
+                startActivity(i);
+                Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
+            case R.id.changeFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*1*1#"));
+                startActivity(i);
+                Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
+            case R.id.deleteFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*1*1#"));
+                startActivity(i);
+                Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
+            case R.id.addSpecialFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*1*1#"));
+                startActivity(i);
+                Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
+            case R.id.changeSpecialFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*1*1#"));
+                startActivity(i);
+                Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
+            case R.id.checkSpecialFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*1*1#"));
+                startActivity(i);
+                Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
+            case R.id.deleteSpecialFnf:i = new Intent(Intent.ACTION_DIAL);i.setData(Uri.parse("tel:*121*1*1#"));
                 startActivity(i);
                 Toast.makeText(getApplicationContext(),"Select Your Banglalink Sim",Toast.LENGTH_SHORT).show();break;
 
+            default:
+                Toast.makeText(getApplicationContext(),"Something Wrong",Toast.LENGTH_SHORT).show();break;
         }
     }
 }

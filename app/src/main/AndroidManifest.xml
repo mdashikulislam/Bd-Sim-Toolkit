@@ -3,8 +3,9 @@
     package="com.bdsimtoolkitmdashikulislam.bdsimtoolkit">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -71,7 +72,10 @@
             android:name=".GpInternetPack"
             android:label="@string/title_activity_gp_internet_pack"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BlFnfMenu" android:label="Banglalink FnF"></activity>
+        <activity
+            android:name=".BlFnfMenu"
+            android:label="Banglalink FnF" />
+        <activity android:name=".GpFnfMenu"></activity>
     </application>
 
 </manifest>
